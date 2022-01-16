@@ -1,0 +1,45 @@
+.articleBox {
+    border: #80461b 1px solid;
+    width: 400px;
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.articleBox > p {
+    margin-top: 10px;
+    font-size: 23px;
+    width: 100%;
+    margin-left: 15px;
+}
+.title {
+    margin-top: 50px;
+}
+.button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 19px;
+    background-color: #80461b;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.id {
+    position: absolute;
+    padding: 5px;
+    right:  0;
+    color: white;
+    top: 0;
+    font-size: 19px;
+    padding: 5px;
+    border-radius: 0 10px 0 0;
+    background-color: #daa520;
+    border-top: #80461b 1px solid;
+    border-right: #80461b 1px solid;
+}
+
