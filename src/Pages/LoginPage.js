@@ -15,11 +15,11 @@ export default function LoginPage() {
             try {
                 let response = await LoginAPI(form)
                 localStorage.setItem('token', response.data.token)
-                navigate('/articles')
+                // navigate('/articles')
                 
             } catch(err) {
                 console.log(err);
-                navigate('/login')
+                // navigate('/login')
             }
         })}>
             <label htmlFor="email">email</label>
